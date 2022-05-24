@@ -1,0 +1,133 @@
+body{
+    background-color: #7c7c7c;
+}
+
+.menu ul li{
+  margin: 5px;
+}
+
+.main{
+    background-color: rgb(157, 219, 255);
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+.main{
+  padding-top: 50px;
+}
+
+.main h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.main ul li a{
+    color: rgb(59, 59, 59);
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.nav-link{
+  padding: 0;
+}
+
+.main ul li{
+  transition: 0.15s linear;
+  padding: 10px 0;
+}
+.main ul li a:hover{
+  color: #fff;
+  transform: 0.15s linear;
+}
+.main ul li a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main ul li:hover {
+    color: #ffffff;
+    transition-delay: 0.5ms;
+    background-color: rgb(66, 160, 255);
+    cursor: pointer;
+}
+#first, #second, #third, #fourth, #kirispe, #fiveth, #six, #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen{
+    margin-top: 50px;
+}
+
+.lec{
+    font-size: 30px;
+}
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .question{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .answers {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .test1{
+    background-color: #fff;
+    padding: 20px;
+  }
+  .answers label{
+    display: block;
+  }
+  .test-submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .test-submit:hover{
+    background-color: #38a;
+  }
+  input[type=radio] {
+    box-sizing: border-box;
+    margin-right: 10px;
+}

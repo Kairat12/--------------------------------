@@ -1,0 +1,75 @@
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .maintext{
+      margin-bottom: 30px;
+      color: #000
+  }
+.secondtext{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.menu ul li{
+    margin: 5px;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+.main h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.main ul li a{
+    color: #000;
+    font-size: 20px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+
+body{
+  background-color: #708090;
+}
